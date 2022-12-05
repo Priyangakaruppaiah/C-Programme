@@ -1,6 +1,5 @@
 // C Program to Find the Sum of Natural Numbers using Recursion
 #include <stdio.h>
-
 int addNumbers(int n);
 int main() {
   int num;
@@ -9,7 +8,6 @@ int main() {
   printf("Sum = %d", addNumbers(num));
   return 0;
 }
-
 int addNumbers(int n) {
   if (n != 0)
     return n + addNumbers(n - 1);
